@@ -97,3 +97,58 @@ Polynomes Polynomes::operator*(double value)
 	}
 	return *this;
 }
+
+Polynomes Polynomes::operator/(double value)
+{
+	for (size_t i = 0; i < coeffs.size(); i++)
+	{
+		coeffs[i] /= value;
+	}
+	return *this;
+}
+
+Polynomes Polynomes::operator/=(double value)
+{
+	for (size_t i = 0; i < coeffs.size(); i++)
+	{
+		coeffs[i] /= value;
+	}
+	return *this;
+}
+
+Polynomes Polynomes::operator+=(Polynomes poly)
+{
+	for (size_t i = 0; i < coeffs.size(); i++)
+	{
+		coeffs[i] += poly.getCoeff(i);
+	}
+	return *this;
+}
+
+Polynomes Polynomes::operator+(Polynomes poly)
+{
+	for (size_t i = 0; i < coeffs.size(); i++)
+	{
+		coeffs[i] += poly.getCoeff(i);
+	}
+	return *this;
+}
+
+Polynomes Polynomes::operator-=(Polynomes poly)
+{
+	for (size_t i = 0; i < coeffs.size(); i++)
+	{
+		coeffs[i] -= poly.getCoeff(i);
+	}
+	return *this;
+}
+
+Polynomes Polynomes::operator-(Polynomes poly)
+{
+	for (size_t i = 0; i < coeffs.size(); i++)
+	{
+		coeffs[i] -= poly.getCoeff(i);
+	}
+	return *this;
+}
+

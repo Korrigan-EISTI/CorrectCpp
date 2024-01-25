@@ -128,11 +128,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Complexes.cpp" />
+    <ClCompile Include="Date.cpp" />
     <ClCompile Include="Polynomes.cpp" />
     <ClCompile Include="TP3.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Complexes.h" />
+    <ClInclude Include="Date.h" />
     <ClInclude Include="Polynomes.h" />
     <ClInclude Include="Vector.h" />
   </ItemGroup>

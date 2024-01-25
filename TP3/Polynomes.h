@@ -29,6 +29,12 @@ public:
 	Polynomes operator=(Polynomes point);
 	Polynomes operator*=(double value);
 	Polynomes operator*(double value);
+	Polynomes operator+(Polynomes poly);
+	Polynomes operator+=(Polynomes poly);
+	Polynomes operator-(Polynomes poly);
+	Polynomes operator-=(Polynomes poly);
+	Polynomes operator/(double value);
+	Polynomes operator/=(double value);
 
 private:
 	Coeffs coeffs;

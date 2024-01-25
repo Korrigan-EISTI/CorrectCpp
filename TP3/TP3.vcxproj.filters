@@ -22,6 +22,12 @@
     <Filter Include="EXO1">
       <UniqueIdentifier>{fbf04053-2d6a-4b8c-b201-676c0e9f29d4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="EXO4">
+      <UniqueIdentifier>{4aaac85a-85c4-4e3f-90aa-fd084224942a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EXO5">
+      <UniqueIdentifier>{23a357a7-f2f4-47d6-815d-85cd94e3ea88}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Polynomes.cpp">
@@ -33,6 +39,9 @@
     <ClCompile Include="TP3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Date.cpp">
+      <Filter>EXO5</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Polynomes.h">
@@ -43,6 +52,9 @@
     </ClInclude>
     <ClInclude Include="Vector.h">
       <Filter>EXO1</Filter>
+    </ClInclude>
+    <ClInclude Include="Date.h">
+      <Filter>EXO5</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
