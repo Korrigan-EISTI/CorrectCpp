@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="EXO1">
+      <UniqueIdentifier>{254658f1-bbd0-43b8-909c-2d274fe38d53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EXO2">
+      <UniqueIdentifier>{69745142-9925-4068-9761-b3b72317c15a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EXO3">
+      <UniqueIdentifier>{609d21c2-29ee-4a97-ab6c-86e7128e636c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TP2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Permutation.cpp">
+      <Filter>EXO1</Filter>
+    </ClCompile>
+    <ClCompile Include="Point3D.cpp">
+      <Filter>EXO2</Filter>
+    </ClCompile>
+    <ClCompile Include="Polynome.cpp">
+      <Filter>EXO3</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Permutation.h">
+      <Filter>EXO1</Filter>
+    </ClInclude>
+    <ClInclude Include="Point3D.h">
+      <Filter>EXO2</Filter>
+    </ClInclude>
+    <ClInclude Include="Polynomes.h">
+      <Filter>EXO3</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

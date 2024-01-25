@@ -1,0 +1,7 @@
+﻿  Polynome.cpp
+H:\Documents\Dev\CorrectCpp\TP2\Polynomes.h(16,46): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Polynome.cpp')
+  
+H:\Documents\Dev\CorrectCpp\TP2\Polynome.cpp(57,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  LINK : H:\Documents\Dev\CorrectCpp\TP2\x64\Debug\TP2.exe not found or not built by the last incremental link; performing full link
+  TP2.vcxproj -> H:\Documents\Dev\CorrectCpp\TP2\x64\Debug\TP2.exe
